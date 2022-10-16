@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, html { font-size: 16px; }
+
+body {
+	margin-top: 50px;
+	background-color: #FFFCF6;
+}
+
+p, img { margin-left: 0.4rem; }
+
+p{text-align: justify;}
+
+h2, h3 { color: #1c9f83;}
+
+.imagem-borda {
+	border: 2px solid black;
+}
+
+.container {
+	background-color: #FFFCF6;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.ajusta-espaco {
+	padding-right: 15px;
+	padding-left: 15px;	
+	margin-bottom: 15px;
+}
+
+.sem-margem { margin: 0px; }
+
+.fonte-texto 
+{
+	font-family: yorkten-slab-extended, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+td, p {
+	font-family: yorkten-slab-extended, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+h2, h3{
+	font-family: adelle-sans, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.fonte-menu 
+{
+	font-family: bebas-neue-v14-deprecated, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) { 
+	h2 { font-size: 1.8rem; }
+	p { font-size: 1rem; }
+} 
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	h2 { font-size: 1.3rem; } 
+	p { font-size: .8rem; } 
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+	h2 { font-size: 1.8rem; }
+	p { font-size: 1rem; }  
+}
+
+@media only screen and (min-width: 1200px) {
+	h2 { font-size: 2rem; } 
+	p { font-size: 1.1rem; }  
+}
